@@ -1,0 +1,93 @@
+# .gitignore file
+#
+
+## Application Patterns
+*.cache
+output/*
+
+## Ansible Patterns
+*.retry
+
+
+## General Blob Patterns
+*.bz2
+*.gz
+*.gzip
+*.rar
+*.tgz
+*.tar
+*.zip
+
+
+## Linux Patterns
+.directory
+
+### Vim
+*~
+*.swp
+*.swo
+
+
+## OSX Patterns
+.DS_Store
+packages
+Play.Tests/IntegrationTestUrl.cs
+
+
+## Python Patterns
+*.py[cod]
+
+### C extensions
+*.so
+
+### Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+### Installer logs
+pip-log.txt
+
+### Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+### Translations
+*.mo
+### Mr Developer
+.mr.developer.cfg
+
+
+## SQLite Patterns
+*.sqlite
+*.sqlite3
+
+
+## Sublime Text Patterns
+*.sublime-project
+*.sublime-workspace
+
+
+## Vagrant Patterns
+.vagrant/
+
+
+## Windows Patterns
+
+### Windows image file caches
+Thumbs.db
+
+### Folder config file
+Desktop.ini
+
